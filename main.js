@@ -350,27 +350,27 @@
 
 // If 4 //
 
-// var A = parseInt(prompt(Enter the number: ))
-// var B = parseInt(prompt(Enter the number: ))
-// var C = parseInt(prompt(Enter the number: ))
+var A = parseInt(prompt(`Enter the number:` ))
+var B = parseInt(prompt(`Enter the number:` ))
+var C = parseInt(prompt(`Enter the number:` ))
 
-// var Positive = 0; 
+var Positive = 0; 
 
-// if (A >= 1) {
-//     Positive++;
-// }
-// if (B >= 1) {
-//     Positive++;
-// }
-// if (C >= 1) {
-//     Positive++;
-// }
+if (A >= 1) {
+    Positive++;
+}
+if (B >= 1) {
+    Positive++;
+}
+if (C >= 1) {
+    Positive++;
+}
 
-// if (Positive > 0) {
-//     alert(Positive numbers: ${Positive});
-// } else {
-//     alert(No positive numbers were entered.);
-// }
+if (Positive > 0) {
+    alert(`Positive numbers: ${Positive}`);
+} else {
+    alert(`No positive numbers were entered.`);
+}
 
 
 
